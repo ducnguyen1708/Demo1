@@ -1,0 +1,138 @@
+.body{
+    background-color:#fff;
+    width: auto;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+*{
+    margin: 0px; padding: 0px;
+}
+.bodyleft{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    float: left;
+}
+.form-heading{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.text-h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.form-login{
+    max-width: 400px;
+    flex-grow: 1;
+    padding:30px 40px;
+    box-shadow: 0px 0px 17px 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.far{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+}
+.form-input{
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+.checkbox{
+    padding-top: 20px;
+    color: #f5f5f5;
+}
+.checkbox a{
+    padding-left: 130px;
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.submit{
+    padding: 6px 10px;
+    padding-top: 30px;
+}
+.submit button{
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    width: 360px;
+    height: 40px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+}
+.submit button:hover{
+    background-color: white;
+    border: 1px solid #54a0ff;
+    color:black;
+    transform: scale(1.1);
+}
+.login-card-footer{
+    color: white;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.login-card-footer a{
+    padding-left: 5px;
+    text-decoration: none;
+}
+.bodyright{
+    float: left;
+    box-shadow: 0px 0px 5px 2px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.clr{
+    clear:both;
+}
+.bottom{
+    padding-top: 10px;
+    text-align: center;
+}
+.bottom p{
+    color: #fff;
+}
+.login-card-social > div{
+    color: #fff; padding-top: 30px;
+    opacity: .8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: calc(1rem * .8);
+}
+.login-card-socail-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.login-card-socail-buttom a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, .6);
+    border-radius: 50px;
+    transition: all .5s;
+}
+.login-card-socail-buttom a:hover{
+    background: white;
+    transform: scale(1.1);
+}
